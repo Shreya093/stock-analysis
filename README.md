@@ -6,7 +6,7 @@ In this project we will be helping Steve to analyse the stock information for th
 
 ### Purpose
 
-The purpose of this project was to refactor the VBA code to collect the stock information for the year 2017 and 2018. We have initially performed our stock-analysis by writing the VBA code and now we need to refactor our code to improve the code readabililty and reduced complexity.
+The purpose of this project was to refactor the VBA code to collect the stock information for the year 2017 and 2018. We have initially performed our stock-analysis by writing the VBA code and now we need to refactor our code to improve the code's readabililty and reduce the complexity.
 The data available contains stock information on 12 different stocks. The stock information contains a ticker value, the date the stock was issued, the opening, closing and adjusted closing price, the highest and lowest price, and the volume of the stock. The goal is to retrieve the ticker, the total daily volume, and the return on each stock.
 We created macros to execute our analysis and an interface was created to allow the user to perform this analysis/functions with the click of a button.
 
@@ -35,7 +35,7 @@ While nested loops served our purpose to perform the analysis, one of the drawba
 
 <img width="244" alt="OriginalScript_ElapsedTimeRun_2018" src="https://user-images.githubusercontent.com/88418201/131411031-bb3655f8-f0cd-4c9a-bcb0-74af5f064a26.png">
 
-By refactoring our code we can overcome this drawback by using arrays. Arrays helps us to find the data with the help of index. Below is a code snippet of using arrays in our refactored code:
+By refactoring our code we can overcome this drawback by using arrays. Arrays helps us to find the data with the help of index which is a much efficient way. Below is a code snippet of using arrays in our refactored code:
 
 <img width="500" alt="Screen Shot 2021-08-30 at 3 01 34 PM" src="https://user-images.githubusercontent.com/88418201/131411645-c9921f04-b262-4620-a3d2-3b98f6347c75.png">
 
@@ -62,5 +62,5 @@ Disadvantages of refactoring the code:
 
 ### 2. How do these pros and cons apply to refactoring the original VBA script?
 
-Refactoring the original VBA script made our code more readable and efficient. In our original VBA script we used nested loops to perform the stock analysis for 2017 and 2018 which made our code a lot complex and it also increased the run time of our code, which in coding world is not a good approach. The reduced run time can be a major drawback while handling large amount of data in organizations.
+Refactoring the original VBA script made our code more readable and efficient. In our original VBA script we used nested loops to perform the stock analysis for 2017 and 2018 which made our code a lot complex and it also increased the run time of our code, which in coding world is not a good approach. The increased run time can be a major drawback while handling large amount of data in organizations.
 I personally found refactoring the code much efficient and easily understandable. The use of arrays helped to pick the data from our stock analysis dataset based on the Index value. Fetching data in arrays using index is a very efficient approach and makes our code run much faster.
